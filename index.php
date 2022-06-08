@@ -5,6 +5,6 @@ if (!$user->is_loggedIn()) {
 Redirect::to('login');
 }
 
-Redirect::to('profile');//redirect to profile
+Redirect::to('profile');
 
 ?>
